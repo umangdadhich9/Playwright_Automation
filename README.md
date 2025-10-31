@@ -11,7 +11,7 @@ The goal of this test is to:
     Password: secret_sauce
 
 2. Identify the item named "Sauce Labs Backpack" on the inventory page.
-3. Add the **"Sauce Labs Backpack"** item to the cart..
+3. Add the **"Sauce Labs Backpack"** item to the cart...
 4. Navigate to the cart page.
 5. Verify:
    - The correct item name (`Sauce Labs Backpack`) is displayed.
@@ -38,12 +38,6 @@ saucedemo-playwright-test
 
 ## Install Dependencies
 
-npm install
-npx playwright install
-npx playwright test addToCart.spec.js
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/saucedemo-playwright-test.git
-cd saucedemo-playwright-test
+1. npm install
+2. npx playwright install
+3. npx playwright test addToCart.spec.js
